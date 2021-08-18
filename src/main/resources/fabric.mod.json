@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "silktest",
+  "version": "${version}",
+
+  "name": "Silk Test Mod",
+  "description": "This is Silk Test Mod!",
+  "authors": [
+    "AmemiyaShigure"
+  ],
+  "contact": {
+    "homepage": "https://github.com/AmemiyaSigure/silk-test-mod",
+    "sources": "https://github.com/AmemiyaSigure/silk-test-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/silktest/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "server": [
+      "cx.rain.mc.silk.testmod.SilkTest"
+    ]
+  },
+  "mixins": [
+    "silktest.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "java": ">=16"
+  },
+  "suggests": {
+  }
+}

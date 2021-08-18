@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cx.rain.mc.silk.testmod.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "server": [
+    "SilkTestMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
